@@ -117,7 +117,7 @@ body {
     border-radius: 16px;
     font-family: 'Montserrat', sans-serif; 
     color: #7157E2;
-    background-color: transperent;
+    background-color: #F6F3EE;
     font-size: 20px;
     font-weight: bold;
     transition: .2s ease-in-out;
@@ -342,6 +342,8 @@ mark {
 
 .love_symbol {
     color: #7024C4;
+    width: 15px;
+    margin-bottom: -1px;
 }
 
 /* four screen */
