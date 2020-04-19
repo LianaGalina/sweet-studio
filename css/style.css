@@ -431,6 +431,9 @@ mark {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
 }
+.adress__what-contact {
+    color: #241D14;
+}
 
 .contact-button {
     display: flex;
