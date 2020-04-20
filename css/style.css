@@ -403,11 +403,13 @@ height: 27px;
 .swiper-button-prev {
     margin-left: 25%;
     background-image: url('../img/back.svg');
+	 background-size: cover;
 }
 
 .swiper-button-next {
     margin-right: 25%;
     background-image: url('../img/next.svg');
+	 background-size: cover;
 }
 
 /* five screen*/
