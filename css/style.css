@@ -742,7 +742,7 @@ footer {
         background-image: url('../img/viola.png') ;
         background-position: center top 125px;
         background-size: 300px;
-        min-height: 100vh;
+        
     }
     .main {
         margin-top: 255px;
