@@ -20,7 +20,7 @@ body {
     background-image: url("../img/bg-img.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    min-height: 550px;
+    min-height: 600px;
     animation-duration: 3s;
     animation-delay: 2s;
 }
@@ -195,11 +195,11 @@ body {
 }
 
 .bonus-text {
-    display: none;
+    opacity: 0;
     font-family: Merriweather;
     font-size: 18px;
     color: #7024c4;
-    transition: all 0.2s;
+    transition: opacity 1.25s;
 }
 
 .bonus-img {

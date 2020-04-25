@@ -1,5 +1,8 @@
-const menuButton = document.querySelector('.menu-button');
-const menu = document.querySelector('.menu');
+const menuButton = document.querySelector('.menu-button'),
+   menu = document.querySelector('.menu'),
+   bonusText = document.querySelector('.bonus-text'),
+   bonusImg = document.querySelector('.bonus-img');
+   
 menuButton.addEventListener('click', function () {
    menu.classList.toggle('menu-active');
    menuButton.classList.toggle('menu-button-active')
@@ -23,9 +26,6 @@ const mySwiper = new Swiper('.swiper-container', {
    },
 })
 
-const bonusText = document.querySelector('.bonus-text'),
-   bonusImg = document.querySelector('.bonus-img');
-
 bonusImg.addEventListener('click', () => {
-   bonusText.style.display = 'block';
+   bonusText.style.opacity = '1';
 });
