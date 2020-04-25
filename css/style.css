@@ -136,10 +136,12 @@ body {
     left: -75px;
     transform: skewX(-45deg);
 }
+
 .record:hover {
     background: #7157e2;
     color: #fff;
 }
+
 .record:hover:before {
     left: 320px;
     transition: 0.5s ease-in-out;
@@ -188,13 +190,22 @@ body {
 }
 
 /* three screen */
-
 .bonus {
-    display: block;
     text-align: center;
-    margin-bottom: 2%;
-    margin-top: -4%;
-    font-size: 15px;
+}
+
+.bonus-text {
+    display: none;
+    font-family: Merriweather;
+    font-size: 18px;
+    color: #7024c4;
+    transition: all 0.2s;
+}
+
+.bonus-img {
+    width: 50px;
+    margin-left: 2%;
+    cursor: pointer;
 }
 
 .complex-title {
@@ -218,8 +229,8 @@ mark {
 }
 
 .card {
-    margin-bottom: 10px;
-    border-radius: 10px;
+    border: 1px solid #7124c467;
+    border-radius: 3px;
 }
 
 .block {
@@ -227,6 +238,7 @@ mark {
     flex-direction: column;
     margin: 1%;
     flex-basis: 23%;
+
 }
 
 .card-1 {
@@ -234,7 +246,6 @@ mark {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid #000;
     position: relative;
     height: 150px;
 }
@@ -244,7 +255,6 @@ mark {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid #000;
     position: relative;
     height: 150px;
 }
@@ -254,7 +264,6 @@ mark {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid #000;
     position: relative;
     height: 150px;
 }
@@ -264,7 +273,6 @@ mark {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid #000;
     position: relative;
     height: 150px;
 }
@@ -274,7 +282,6 @@ mark {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid #000;
     position: relative;
     height: 150px;
 }
@@ -284,7 +291,6 @@ mark {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid #000;
     position: relative;
     height: 150px;
 }
@@ -294,7 +300,6 @@ mark {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid #000;
     position: relative;
     height: 150px;
 }
@@ -304,7 +309,6 @@ mark {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid #000;
     position: relative;
     height: 150px;
 }
@@ -324,10 +328,13 @@ mark {
     position: absolute;
     bottom: 0;
     right: 0;
+    border-radius: 3px;
 }
 
 .after-card {
     display: inline-block;
+    padding: 2px 5px;
+    text-align: right;
 }
 
 .complex-name {
@@ -336,6 +343,7 @@ mark {
     align-items: flex-start;
     font-size: 18px;
 }
+
 .c-price {
     font-weight: bold;
     background: rgba(113, 87, 226, 0.1);
@@ -396,6 +404,7 @@ mark {
     height: 27px;
     transition: all 0.8s;
 }
+
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
     transform: scale(1.1);
@@ -426,7 +435,7 @@ mark {
 .contact-data {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     min-height: 400px;
     color: #241d14;
     font-size: 18px;
@@ -448,16 +457,18 @@ mark {
     font-size: 16px;
 }
 
-.contact-button > .social-icon {
+.contact-button>.social-icon {
     margin-right: 10px;
 }
 
 .contact-button__blue {
     color: rgb(34, 101, 179);
 }
+
 .contact-button__inst {
     color: #7024c4;
 }
+
 .map {
     border-radius: 5px;
     overflow: hidden;
@@ -507,13 +518,16 @@ footer {
     .title {
         font-size: 38px;
     }
+
     .title,
     .description-title {
         max-width: 50%;
     }
+
     .contact-data {
         flex-basis: 35%;
     }
+
     .phrase {
         font-size: 16px;
         min-width: 250px;
@@ -528,39 +542,44 @@ footer {
     .menu-item {
         margin-right: 20px;
     }
+
     .contacts {
         margin-left: auto;
     }
+
     .title {
         min-width: 70%;
         margin-top: 50px;
     }
+
     .title-description {
         font-size: 14px;
     }
+
     .record {
         width: 200px;
         height: 50px;
         font-size: 16px;
         border-radius: 12px;
     }
+
     .phrase,
     .after-card {
         font-size: 14.5px;
     }
+
     .adventage {
         flex-basis: 40%;
     }
+
     .block {
         flex-basis: 30%;
     }
 
-    .bonus {
-        margin-top: -2%;
-    }
     .subtitle {
         margin: 30px;
     }
+
     .review-avatar {
         height: 150px;
         width: 150px;
@@ -568,13 +587,16 @@ footer {
         object-fit: cover;
         border: 0.5px solid #000;
     }
+
     .swiper-button-prev,
     .swiper-button-next {
         top: 20%;
     }
+
     .five-screen {
         justify-content: center;
     }
+
     .subtitle-contacts {
         margin: 15px;
     }
@@ -583,6 +605,7 @@ footer {
         order: 1;
         flex-basis: 100%;
     }
+
     .contact-data {
         order: 0;
         flex-basis: 100%;
@@ -595,10 +618,12 @@ footer {
         margin-bottom: 0px;
         font-size: 16px;
     }
+
     .contact-button {
         justify-content: center;
         margin: 2% 35%;
     }
+
     .map__img {
         height: 300px;
     }
@@ -608,6 +633,7 @@ footer {
     .start-screen {
         background-position: bottom -30px right -94px;
     }
+
     .block {
         flex-basis: 35%;
     }
@@ -649,17 +675,21 @@ footer {
         margin-top: -7px;
         transition: transform 0.2s;
     }
+
     .menu-button-active {
         height: 0;
     }
+
     .menu-button-active:before {
         transform: rotate(-45deg);
         margin: 0;
     }
+
     .menu-button-active:after {
         transform: rotate(45deg);
         margin: 0;
     }
+
     .menu {
         display: none;
         position: absolute;
@@ -673,9 +703,11 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     .menu-active {
         display: flex;
     }
+
     .menu-item {
         color: #241d14;
         line-height: 2;
@@ -686,6 +718,7 @@ footer {
         margin-top: 90px;
         margin-left: 20px;
     }
+
     .title {
         font-size: 26px;
     }
@@ -695,48 +728,66 @@ footer {
         flex-direction: column;
     }
 }
+
 @media (max-width: 495px) {
     .start-screen {
         background-position: bottom 0px right -100px;
         background-size: 500px;
     }
+
     .contacts {
         font-size: 16px;
     }
+
     .title {
         line-height: 1.5;
     }
+
     .adventage {
         flex-basis: 90%;
     }
+
     .block {
         flex-basis: 47%;
     }
+
+    .after-card {
+        padding: 0;
+    }
+
     .review-text,
-    .complex-prices {
+    .complex-prices,
+    .bonus-text {
         line-height: normal;
         font-size: 14px;
     }
+
     .complex-name,
     .complex-title {
-        align-items: flex-start;
+        align-items: center;
         font-size: 16px;
-        text-align: left;
+        text-align: center;
     }
+
+
     .swiper-button-next,
     .swiper-button-prev {
         top: 22%;
     }
+
     .swiper-button-next {
         margin-right: 10%;
     }
+
     .swiper-button-prev {
         margin-left: 10%;
     }
+
     .contact-data {
         font-size: 14px;
         text-align: left;
     }
+
     .contact-button {
         justify-content: flex-start;
         margin: 2% 0;
@@ -749,13 +800,16 @@ footer {
         background-position: center top 125px;
         background-size: 300px;
     }
+
     .main {
         margin-top: 255px;
         margin-left: 0;
     }
+
     .title {
         font-weight: bolder;
     }
+
     .title,
     .description-title {
         margin-bottom: 10px;
@@ -769,9 +823,11 @@ footer {
         margin: auto;
         width: 90%;
     }
+
     a {
         text-decoration: none;
     }
+
     .copyright {
         font-size: 14px;
     }
