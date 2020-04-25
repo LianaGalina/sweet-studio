@@ -3,9 +3,9 @@
 }
 
 body {
-    color: #241D14;
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(180deg, #F6F3EE 0%, #EDECE7 100%);
+    color: #241d14;
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(180deg, #f6f3ee 0%, #edece7 100%);
 }
 
 .container {
@@ -17,9 +17,9 @@ body {
 .start-screen {
     max-width: 1140px;
     margin: auto;
-    background-image: url('../img/bg-img.png');
+    background-image: url("../img/bg-img.png");
     background-repeat: no-repeat;
-    background-position: bottom right; 
+    background-position: bottom right;
     min-height: 550px;
     animation-duration: 3s;
     animation-delay: 2s;
@@ -44,7 +44,7 @@ body {
 
 .menu-item {
     text-decoration: none;
-    color: #241D14;
+    color: #241d14;
     font-size: 18px;
     line-height: 28px;
     margin-right: 10%;
@@ -55,8 +55,8 @@ body {
     content: "";
     height: 2px;
     width: 0%;
-    background-color: #7157E2;
-    transition: width .3s ease-in-out;
+    background-color: #7157e2;
+    transition: width 0.3s ease-in-out;
 }
 
 .menu-item:hover:after,
@@ -64,13 +64,14 @@ body {
     width: 100%;
 }
 
-
 .contacts {
     font-size: 18px;
     line-height: 28px;
 }
 
-.phone-number, .adress, .social {
+.phone-number,
+.adress,
+.social {
     display: block;
     margin-bottom: 3%;
     text-align: right;
@@ -94,7 +95,7 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 42px;
-    color: #7024C4;
+    color: #7024c4;
     margin-bottom: 3%;
 }
 
@@ -115,39 +116,39 @@ body {
     padding: 10px 30px;
     position: relative;
     overflow: hidden;
-    border: 2px solid #7157E2;
+    border: 2px solid #7157e2;
     border-radius: 16px;
-    font-family: 'Montserrat', sans-serif; 
-    color: #7157E2;
-    background-color: #F6F3EE;
+    font-family: "Montserrat", sans-serif;
+    color: #7157e2;
+    background-color: #f6f3ee;
     font-size: 20px;
     font-weight: bold;
-    transition: .2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .record:before {
     content: "";
-    background: linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.5));
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5));
     height: 70px;
     width: 50px;
     position: absolute;
     top: -8px;
     left: -75px;
     transform: skewX(-45deg);
-  }
-  .record:hover {
-    background: #7157E2;
+}
+.record:hover {
+    background: #7157e2;
     color: #fff;
-  }
-  .record:hover:before {
+}
+.record:hover:before {
     left: 320px;
-    transition: .5s ease-in-out;
-  }
+    transition: 0.5s ease-in-out;
+}
 
 /* second  screen */
 
 .second-screen {
-    background-color: #FFFBF9;
+    background-color: #fffbf9;
 }
 
 .subtitle {
@@ -156,7 +157,7 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    color: #7024C4;
+    color: #7024c4;
     margin-bottom: 65px;
 }
 
@@ -174,7 +175,7 @@ body {
     flex-basis: 32%;
 }
 
-.adventage-icon{
+.adventage-icon {
     width: 50px;
     height: 50px;
 }
@@ -196,7 +197,7 @@ body {
     font-size: 15px;
 }
 
-.complex-title{
+.complex-title {
     display: block;
     font-size: 18px;
     margin: 3% 0;
@@ -205,7 +206,7 @@ body {
 
 mark {
     background-color: transparent;
-    color: #7024C4;
+    color: #7024c4;
     letter-spacing: 1px;
     font-weight: 600;
 }
@@ -218,6 +219,7 @@ mark {
 
 .card {
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .block {
@@ -228,7 +230,7 @@ mark {
 }
 
 .card-1 {
-    background-image: url('../img/pod.jpg');
+    background-image: url("../img/pod.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,7 +240,7 @@ mark {
 }
 
 .card-2 {
-    background-image: url('../img/gol.jpg');
+    background-image: url("../img/gol.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -248,7 +250,7 @@ mark {
 }
 
 .card-3 {
-    background-image: url('../img/bedra.jpg');
+    background-image: url("../img/bedra.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -258,7 +260,7 @@ mark {
 }
 
 .card-4 {
-    background-image: url('../img/nog.jpg');
+    background-image: url("../img/nog.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -268,7 +270,7 @@ mark {
 }
 
 .card-5 {
-    background-image: url('../img/brazil.jpg');
+    background-image: url("../img/brazil.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -278,7 +280,7 @@ mark {
 }
 
 .card-6 {
-    background-image: url('../img/ruk.jpg');
+    background-image: url("../img/ruk.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -288,7 +290,7 @@ mark {
 }
 
 .card-7 {
-    background-image: url('../img/tal.jpg');
+    background-image: url("../img/tal.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -298,7 +300,7 @@ mark {
 }
 
 .card-8 {
-    background-image: url('../img/pop.jpg');
+    background-image: url("../img/pop.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -333,7 +335,6 @@ mark {
     justify-content: space-between;
     align-items: flex-start;
     font-size: 18px;
-    
 }
 .c-price {
     font-weight: bold;
@@ -343,7 +344,7 @@ mark {
 }
 
 .love_symbol {
-    color: #7024C4;
+    color: #7024c4;
     width: 15px;
     margin-bottom: -1px;
 }
@@ -351,7 +352,7 @@ mark {
 /* four screen */
 
 .four-screen {
-    background-color: #FFFBF9;
+    background-color: #fffbf9;
 }
 
 .swiper-container {
@@ -366,8 +367,8 @@ mark {
     display: block;
     margin: 0 auto;
     height: 200px;
-	width: 200px;
-	border-radius: 50%;
+    width: 200px;
+    border-radius: 50%;
     object-fit: cover;
     border: 0.5px solid #000;
 }
@@ -376,40 +377,41 @@ mark {
     display: block;
     text-align: center;
     font-size: 18px;
-    color: #7024C4;
+    color: #7024c4;
     margin: 3% 0;
 }
 
-.review-text{
+.review-text {
     text-align: center;
     font-size: 18px;
     line-height: 25px;
     padding: 0 5%;
 }
 
-.swiper-button-prev, .swiper-button-next {
-    top:25%;
-    color: #7157E2;
+.swiper-button-prev,
+.swiper-button-next {
+    top: 25%;
+    color: #7157e2;
     width: 27px;
-height: 27px;
+    height: 27px;
     transition: all 0.8s;
-    
 }
-.swiper-button-prev:hover, .swiper-button-next:hover {
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
     transform: scale(1.1);
     transition: all 0.8s;
 }
 
 .swiper-button-prev {
     margin-left: 25%;
-    background-image: url('../img/back.svg');
-	 background-size: cover;
+    background-image: url("../img/back.svg");
+    background-size: cover;
 }
 
 .swiper-button-next {
     margin-right: 25%;
-    background-image: url('../img/next.svg');
-	 background-size: cover;
+    background-image: url("../img/next.svg");
+    background-size: cover;
 }
 
 /* five screen*/
@@ -421,12 +423,12 @@ height: 27px;
     flex-wrap: wrap;
 }
 
-.contact-data{   
+.contact-data {
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 400px;
-    color: #241D14;
+    color: #241d14;
     font-size: 18px;
     padding: 10px;
     flex-basis: 35%;
@@ -441,32 +443,31 @@ height: 27px;
     text-decoration: none;
     margin: 10px 0;
     padding: 5px;
-    background-color: #DFDDDD;
+    background-color: #dfdddd;
     border-radius: 2px;
     font-size: 16px;
 }
 
-.contact-button >.social-icon {
+.contact-button > .social-icon {
     margin-right: 10px;
 }
 
-.contact-button__blue{
-    color:rgb(34, 101, 179);
+.contact-button__blue {
+    color: rgb(34, 101, 179);
 }
 .contact-button__inst {
-    color: #7024C4;
+    color: #7024c4;
 }
 .map {
     border-radius: 5px;
     overflow: hidden;
-    order:0;
+    order: 0;
     flex-basis: 60%;
 }
 
 .map__img {
     width: 100%;
 }
-
 
 .what-contact {
     margin-bottom: 2%;
@@ -477,19 +478,20 @@ height: 27px;
     text-decoration: none;
     padding: 5px 35px;
     margin-left: 10px;
-    background-color: #DFDDDD;
+    background-color: #dfdddd;
     border-radius: 3px;
-    color: #7024C4;
+    color: #7024c4;
     transition: ease 0.5s;
 }
 
-.record-contact:hover, .contact-button:hover {
+.record-contact:hover,
+.contact-button:hover {
     box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.5);
     transition: ease 0.5s;
 }
 
 footer {
-    background-color: #DFDDDD;
+    background-color: #dfdddd;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -501,16 +503,16 @@ footer {
     padding: 10px;
 }
 
-
 @media (max-width: 992px) {
     .title {
         font-size: 38px;
-    } 
-    .title, .description-title {
+    }
+    .title,
+    .description-title {
         max-width: 50%;
     }
     .contact-data {
-        flex-basis:35%;
+        flex-basis: 35%;
     }
     .phrase {
         font-size: 16px;
@@ -522,7 +524,7 @@ footer {
     .start-screen {
         background-position: bottom 5px right -15px;
     }
-    
+
     .menu-item {
         margin-right: 20px;
     }
@@ -532,7 +534,7 @@ footer {
     .title {
         min-width: 70%;
         margin-top: 50px;
-    } 
+    }
     .title-description {
         font-size: 14px;
     }
@@ -542,7 +544,8 @@ footer {
         font-size: 16px;
         border-radius: 12px;
     }
-    .phrase, .after-card {
+    .phrase,
+    .after-card {
         font-size: 14.5px;
     }
     .adventage {
@@ -551,7 +554,7 @@ footer {
     .block {
         flex-basis: 30%;
     }
-    
+
     .bonus {
         margin-top: -2%;
     }
@@ -565,10 +568,11 @@ footer {
         object-fit: cover;
         border: 0.5px solid #000;
     }
-    .swiper-button-prev, .swiper-button-next {
+    .swiper-button-prev,
+    .swiper-button-next {
         top: 20%;
     }
-    .five-screen{
+    .five-screen {
         justify-content: center;
     }
     .subtitle-contacts {
@@ -576,11 +580,11 @@ footer {
     }
 
     .map {
-        order:1;
+        order: 1;
         flex-basis: 100%;
     }
-    .contact-data{
-        order:0;
+    .contact-data {
+        order: 0;
         flex-basis: 100%;
         background-color: transparent;
         text-align: center;
@@ -595,7 +599,7 @@ footer {
         justify-content: center;
         margin: 2% 35%;
     }
-    .map__img{
+    .map__img {
         height: 300px;
     }
 }
@@ -614,70 +618,70 @@ footer {
         display: block;
         width: 30px;
         height: 2px;
-        background-color: #7024C4;
+        background-color: #7024c4;
         position: absolute;
         top: 30px;
         left: 30px;
     }
-    
+
     .menu-button:after {
-        content: '';
+        content: "";
         display: block;
         width: 30px;
         height: 2px;
-        background-color: #7024C4;
+        background-color: #7024c4;
         position: absolute;
         top: 0;
         left: 0;
-        margin-top: 7px; 
+        margin-top: 7px;
         transition: transform 0.2s;
     }
-    
+
     .menu-button:before {
-        content: '';
+        content: "";
         display: block;
         width: 30px;
         height: 2px;
-        background-color: #7024C4;
+        background-color: #7024c4;
         position: absolute;
         top: 0;
         left: 0;
-        margin-top: -7px; 
+        margin-top: -7px;
         transition: transform 0.2s;
     }
-    .menu-button-active{
-		height: 0;
-	}
-	.menu-button-active:before{
-		transform: rotate(-45deg);
+    .menu-button-active {
+        height: 0;
+    }
+    .menu-button-active:before {
+        transform: rotate(-45deg);
         margin: 0;
-	}
-	.menu-button-active:after{
-		transform: rotate(45deg);
+    }
+    .menu-button-active:after {
+        transform: rotate(45deg);
         margin: 0;
-	}
-    .menu{
+    }
+    .menu {
         display: none;
-		position: absolute;
-		top: 0;
-		left: 0;
-		margin: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
         width: 100%;
         padding: 15px;
         border-bottom-right-radius: 15px;
-        background-color: #EDECE7;
+        background-color: #edece7;
         flex-direction: column;
         align-items: center;
     }
     .menu-active {
         display: flex;
     }
-    .menu-item{
-        color:#241D14;
+    .menu-item {
+        color: #241d14;
         line-height: 2;
         margin-right: 0;
     }
-    
+
     .main {
         margin-top: 90px;
         margin-left: 20px;
@@ -685,7 +689,7 @@ footer {
     .title {
         font-size: 26px;
     }
-    
+
     .complex-name {
         align-items: center;
         flex-direction: column;
@@ -693,7 +697,7 @@ footer {
 }
 @media (max-width: 495px) {
     .start-screen {
-        background-position:  bottom 0px right -100px;
+        background-position: bottom 0px right -100px;
         background-size: 500px;
     }
     .contacts {
@@ -701,7 +705,6 @@ footer {
     }
     .title {
         line-height: 1.5;
-        
     }
     .adventage {
         flex-basis: 90%;
@@ -709,16 +712,19 @@ footer {
     .block {
         flex-basis: 47%;
     }
-    .review-text, .complex-prices {
+    .review-text,
+    .complex-prices {
         line-height: normal;
         font-size: 14px;
     }
-    .complex-name, .complex-title {
+    .complex-name,
+    .complex-title {
         align-items: flex-start;
         font-size: 16px;
         text-align: left;
     }
-    .swiper-button-next, .swiper-button-prev {
+    .swiper-button-next,
+    .swiper-button-prev {
         top: 22%;
     }
     .swiper-button-next {
@@ -729,7 +735,7 @@ footer {
     }
     .contact-data {
         font-size: 14px;
-        text-align:left;
+        text-align: left;
     }
     .contact-button {
         justify-content: flex-start;
@@ -739,10 +745,9 @@ footer {
 
 @media (max-width: 420px) {
     .start-screen {
-        background-image: url('../img/viola.png') ;
+        background-image: url("../img/viola.png");
         background-position: center top 125px;
         background-size: 300px;
-        
     }
     .main {
         margin-top: 255px;
@@ -751,7 +756,8 @@ footer {
     .title {
         font-weight: bolder;
     }
-    .title,  .description-title{
+    .title,
+    .description-title {
         margin-bottom: 10px;
         max-width: 100%;
         margin-bottom: 20px;
@@ -763,7 +769,7 @@ footer {
         margin: auto;
         width: 90%;
     }
-    a{
+    a {
         text-decoration: none;
     }
     .copyright {
