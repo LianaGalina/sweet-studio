@@ -85,6 +85,10 @@ body {
     transition: ease 0.5s;
 }
 
+.social {
+    margin-top: 10px;
+}
+
 .social-icon:hover {
     transform: rotate(360deg);
     transition: ease 1s;
@@ -378,7 +382,7 @@ mark {
     width: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #7024c4;
+    border: 2px dotted #7024c4;
 }
 
 .review-name {
@@ -722,6 +726,10 @@ footer {
 
     .title {
         font-size: 26px;
+    }
+
+    .contacts {
+        margin-right: 4%;
     }
 
     .complex-name {
