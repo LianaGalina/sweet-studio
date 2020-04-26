@@ -378,7 +378,7 @@ mark {
     width: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 0.5px solid #000;
+    border: 2px solid #7024c4;
 }
 
 .review-name {
@@ -478,6 +478,7 @@ mark {
 
 .map__img {
     width: 100%;
+    scroll: false;
 }
 
 .what-contact {
