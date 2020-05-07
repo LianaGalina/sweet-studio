@@ -783,7 +783,7 @@ footer {
     }
 
     .after-card {
-        padding: 2px;
+        padding: 2px 4px 2px 0;
     }
 
     .review-text,
