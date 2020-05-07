@@ -870,7 +870,7 @@ footer {
     .after-card{
         font-size: 13px;
     }
-    .copyright {
+    .copyright, .author {
         font-size: 14px;
     }
 }
