@@ -527,16 +527,25 @@ mark {
 
 footer {
     background-color: #dfdddd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-height: 60px;
+    padding: 10px;
+    text-align: center;
+    line-height: 145%;
 }
 
 .copyright {
     margin: 0;
-    padding: 10px;
 }
+
+.author{
+    color: #241d14;
+    margin: 0;
+}
+.author-link {
+    text-decoration: none;
+    color:  #241d14;
+}
+
+
 
 @media (max-width: 992px) {
     .title {
