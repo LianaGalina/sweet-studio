@@ -7,6 +7,7 @@ menuButton.addEventListener('click', function () {
    menu.classList.toggle('menu-active');
    menuButton.classList.toggle('menu-button-active')
 });
+
 $(document).ready(function () {
    $(".menu").on("click", "a", function (event) {
       event.preventDefault();
@@ -17,6 +18,7 @@ $(document).ready(function () {
       }, 1500)
    })
 });
+
 const mySwiper = new Swiper('.swiper-container', {
    direction: 'horizontal',
    loop: !0,
@@ -24,8 +26,9 @@ const mySwiper = new Swiper('.swiper-container', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
    },
-})
-
-bonusImg.addEventListener('click', () => {
-   bonusText.style.opacity = '1';
 });
+
+function showBonus() {
+   bonusText.classList.add('bonus-show');
+}
+bonusImg.addEventListener('click', showBonus);

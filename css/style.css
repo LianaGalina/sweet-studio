@@ -199,11 +199,26 @@ body {
 }
 
 .bonus-text {
-    opacity: 0;
+    display: none;
+    opacity: 1;
     font-family: Merriweather;
     font-size: 18px;
     color: #7024c4;
-    transition: opacity 1.25s;
+    transition: opacity 0.3s;
+}
+
+.bonus-show {
+    display: block;
+    animation: showBonus 1s linear forwards;
+}
+
+@keyframes showBonus {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .bonus-img {
@@ -337,7 +352,7 @@ mark {
 
 .after-card {
     display: inline-block;
-    padding: 2px 5px;
+    padding: 3px 5px;
     text-align: right;
 }
 
@@ -346,13 +361,15 @@ mark {
     justify-content: space-between;
     align-items: flex-start;
     font-size: 18px;
+    line-height: 155%;
 }
 
 .c-price {
     font-weight: bold;
     background: rgba(113, 87, 226, 0.1);
-    padding: 5px;
-    min-width: 140px;
+    padding: 5px 10px;
+    width: 150px;
+    text-align: center;
 }
 
 .love_symbol {
@@ -439,7 +456,7 @@ mark {
 .contact-data {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     min-height: 400px;
     color: #241d14;
     font-size: 18px;
@@ -459,6 +476,7 @@ mark {
     background-color: #dfdddd;
     border-radius: 2px;
     font-size: 16px;
+    box-shadow: 1px 3px 7px rgba(91, 69, 97, 0.5);
 }
 
 .contact-button>.social-icon {
@@ -482,11 +500,11 @@ mark {
 
 .map__img {
     width: 100%;
-    scroll: false;
 }
 
 .what-contact {
-    margin-bottom: 2%;
+    margin-bottom: 2px;
+    line-height: 130%;
 }
 
 .record-contact {
@@ -498,11 +516,12 @@ mark {
     border-radius: 3px;
     color: #7024c4;
     transition: ease 0.5s;
+    box-shadow: 0px 4px 10px rgba(134, 128, 136, 0.5);
 }
 
 .record-contact:hover,
 .contact-button:hover {
-    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 12px rgba(25, 25, 26, 0.3);
     transition: ease 0.5s;
 }
 
@@ -649,6 +668,7 @@ footer {
         display: block;
         width: 30px;
         height: 2px;
+        border-radius: 10px;
         background-color: #7024c4;
         position: absolute;
         top: 30px;
@@ -660,6 +680,7 @@ footer {
         display: block;
         width: 30px;
         height: 2px;
+        border-radius: 10px;
         background-color: #7024c4;
         position: absolute;
         top: 0;
@@ -673,6 +694,7 @@ footer {
         display: block;
         width: 30px;
         height: 2px;
+        border-radius: 10px;
         background-color: #7024c4;
         position: absolute;
         top: 0;
@@ -836,7 +858,9 @@ footer {
     a {
         text-decoration: none;
     }
-
+    .after-card{
+        font-size: 13px;
+    }
     .copyright {
         font-size: 14px;
     }
