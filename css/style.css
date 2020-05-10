@@ -191,12 +191,13 @@ body {
 /* three screen */
 .bonus {
     text-align: center;
+    margin-top: 10px;
 }
 
 .bonus-text {
     display: none;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: Nunito;
     font-size: 18px;
     color: #7024c4;
     transition: opacity 0.3s;
@@ -357,18 +358,21 @@ mark {
     align-items: flex-start;
     font-size: 18px;
     line-height: 155%;
+    margin-bottom: 5px;
 }
 
 .c-price {
+    display: inline-block;
     font-weight: bold;
-    background: rgba(113, 87, 226, 0.1);
-    padding: 5px 10px;
+    background: rgba(113, 87, 226, 0.45);
+    border-radius: 2px;
     width: 150px;
+    padding: 4px;
     text-align: center;
 }
 
 .love_symbol {
-    color: #7024c4;
+    color: rgba(113, 87, 226, 0.5);
     width: 15px;
     margin-bottom: -1px;
 }
@@ -550,7 +554,7 @@ footer {
     }
 
     .contact-data {
-        flex-basis: 35%;
+        flex-basis: 36%;
     }
 
     .phrase {
@@ -754,10 +758,15 @@ footer {
     .contacts {
         margin-right: 4%;
     }
-
+    .complex-title{
+        margin: 30px 0;
+    }
     .complex-name {
         align-items: center;
         flex-direction: column;
+    }
+    .c-price{
+        margin-top: 2px;
     }
 }
 
@@ -823,6 +832,9 @@ footer {
     .contact-button {
         justify-content: flex-start;
         margin: 2% 0;
+    }
+    .map{
+        padding: 10px;
     }
 }
 
