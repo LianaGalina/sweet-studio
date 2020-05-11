@@ -796,17 +796,6 @@ footer {
         font-size: 14px;
     }
 
-    .complex {
-        font-size: 14px;
-    }
-    .complex_price{
-        min-width: 110px;
-    }
-    .complex_name {
-        padding: 10px 20px 10px 0;
-        min-width:158px;
-    }
-
     .swiper-button-next,
     .swiper-button-prev {
         top: 22%;
@@ -865,6 +854,10 @@ footer {
     }
     .after-card{
         font-size: 13px;
+    }
+    .complex_name {
+        padding: 10px 20px 10px 0;
+        min-width:158px;
     }
     .copyright, .author {
         font-size: 14px;
