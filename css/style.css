@@ -13,9 +13,6 @@ body {
     margin: auto;
     padding: 2%;
 }
-
-
-
 .start-screen {
     max-width: 1140px;
     margin: auto;
@@ -276,7 +273,6 @@ mark {
     flex-direction: column;
     margin: 1%;
     flex-basis: 23%;
-
 }
 
 .card-1 {
@@ -407,6 +403,7 @@ mark {
 
 .review-name {
     display: block;
+    text-decoration: none;
     text-align: center;
     font-size: 18px;
     color: #7024c4;
@@ -499,10 +496,7 @@ mark {
     color: #241d14;
     font-weight: bold;
     font-family: Nunito;
-}
-
-.contact-button__record span {
-    margin: auto;
+    min-height: 45px;
 }
 
 .map {
@@ -545,8 +539,6 @@ footer {
     color:  #241d14;
 }
 
-
-
 @media (max-width: 992px) {
     .title {
         font-size: 38px;
@@ -570,6 +562,7 @@ footer {
 @media (max-width: 810px) {
     .start-screen {
         background-position: bottom 5px right -15px;
+        min-height: 550px;
     }
 
     .menu-item {
@@ -775,7 +768,7 @@ footer {
     }
 
     .title {
-        line-height: 1.5;
+        line-height: 135%;
     }
 
     .adventage {
@@ -837,10 +830,12 @@ footer {
 
     .title,
     .description-title {
-        margin-bottom: 10px;
         max-width: 100%;
         margin-bottom: 20px;
         text-align: center;
+    }
+    .description-title{
+        font-size: 17px;
     }
 
     .record {
