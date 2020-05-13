@@ -365,12 +365,6 @@ mark {
     border-radius: 3px 0 2px 0;
 }
 
-.after-card {
-    display: inline-block;
-    padding: 3px 5px;
-    text-align: right;
-}
-
 .love_symbol {
     color: rgba(113, 87, 226, 0.5);
     width: 15px;
@@ -589,8 +583,7 @@ footer {
         border-radius: 12px;
     }
 
-    .phrase,
-    .after-card {
+    .phrase {
         font-size: 14.5px;
     }
 
@@ -779,8 +772,8 @@ footer {
         flex-basis: 47%;
     }
 
-    .after-card {
-        padding: 2px 4px 2px 0;
+    .complex_price {
+        min-width: 100px;
     }
 
     .review-text,
@@ -846,9 +839,6 @@ footer {
 
     a {
         text-decoration: none;
-    }
-    .after-card{
-        font-size: 13px;
     }
     .complex_name {
         padding: 10px 20px 10px 0;
